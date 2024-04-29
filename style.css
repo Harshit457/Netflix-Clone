@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.cont1{
+    background-image: url("1st\ page.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px,100vw);
+    height: 95vh;
+    position: relative;
+}
+.box1{
+    height: 95vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.55;
+    position: absolute;
+    top: 0;
+}
+nav{
+    max-width: 150vh;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.logo{
+    height: 90px;
+    width: 160px;
+    position: relative;
+    z-index: 10;
+    
+}
+.buttons{
+    margin-top: 15%;
+    
+    height: 5vh;
+    width: 14vh;
+    position: relative;
+    z-index: 10;
+}
+#button2{
+    
+    background-color: rgb(216, 3, 3);
+    color: white;
+    border-radius: 5px;
+}
+.text1{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+}
+.boldtext{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family:  Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    ;
+}
+.text1{
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+.resttext{
+    font-size: 25px;
+    margin-top: 1vw;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.contain2{
+    display: flex;
+    flex-direction: row;
+    margin-right: 210px;
+}
+.input{
+    background-color: black;
+    opacity: 0.5;
+    width: 26vw;
+    height: 3.5vw;
+    border-radius: 5px;
+    font-size: 17px;
+    color: white;
+    padding-left: 20px;
+    border: solid silver 0.1px;
+    margin-right: 10px;
+}
+.getstarted{
+    border-radius: 5px;
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    height: 3.5vw;
+    width: 16vw;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: 500;
+    
+}
+.getstarted:hover{
+    background-color: rgb(192, 5, 5);
+}
+@media screen and (max-width:1010px) {
+    .boldtext{
+        font-size: 30px;
+        text-align: center;
+    }
+    .resttext{
+        font-size: 20px;
+        text-align: center;
+    }
+    .cont1{
+        background-image: url(1st\ page.jpg);
+        height: 100%;
+        background-position: center center;
+    }
+    .box1{
+        height: 100%;
+    }
+    .contain2{
+        margin-right: 100px;
+    }
+    .getstarted{
+        font-size: 10px;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .contain2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .input{
+        margin-left: 90px;
+        width: 200px;
+        height: 35px;
+    }
+    .getstarted{
+        height: 35px;
+        width: 100px;
+    }
+}
+.line{
+    background-color: rgb(58, 57, 57);   
+    height: 0.6vw;
+}
+.cont2{
+    
+    height: 38vw;
+}
+.text2{
+    color: white;
+}
+.cont2{
+    display: flex;
+    
+    justify-content: space-around;
+    
+}
+.text2{
+    width: 37vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 150px;
+}
+.bold{
+    font-size: 50px;
+    
+    font-weight: bolder;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+.light{
+    font-size: 25px;
+}
+.img2{
+    display: flex;
+    margin-right: 150px;
+}
+.image{
+    z-index: 10;
+    width: 40vw;
+    height: 30vw;
+    position: relative;
+}
+.video{
+    
+    position: absolute;
+    width: 40vw;
+    height: 30vw;
+    height: fit-content;
+}
+.cont3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text3{
+    margin-top: 160px;
+    color: white;
+}
+
+
+
+
